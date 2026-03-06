@@ -1,0 +1,9 @@
+.about{
+    height: 60vh;
+   
+}
+.about-text {
+  line-height: 1.8;
+  padding: 10px;
+  text-align: left;
+}

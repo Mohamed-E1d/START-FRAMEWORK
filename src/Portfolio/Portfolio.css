@@ -1,0 +1,68 @@
+.porf h1 {
+  color: #2C3E50;
+}
+
+.star {
+  color: #2C3E50;
+}
+
+.line {
+  margin: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: #2C3E50;
+}
+
+.port-img {
+  width: 100%;
+  display: block;
+}
+
+
+.port-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  #1ABC9C;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.port-item:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+}
+
+.modal-img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  transition: transform 0.3s ease;
+}
+
+.modal-img:hover {
+  transform: scale(1.02);
+}

@@ -1,0 +1,15 @@
+.bg-Nav{
+    background-color: #2C3E50;
+}
+
+.bg-Nav .nav-link {
+  color: white !important;
+}
+.bg-Nav .navbar-brand {
+  color: white !important;
+}
+.bg-Nav .nav-link:focus{
+  background-color:  #1ABC9C;
+
+  border-radius: 11%;
+}
